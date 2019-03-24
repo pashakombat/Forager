@@ -3,7 +3,7 @@
 cd /d %~dp0
 
 set Mode=Automatic
-set Pools=NiceHash,Zpool,ZergPool,WhatToMine
+set Pools=NiceHash,Zpool,ZergPool
 
 set Command="& .\Core.ps1 -MiningMode %Mode% -PoolsName %Pools%"
 
